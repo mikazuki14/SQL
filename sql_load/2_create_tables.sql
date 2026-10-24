@@ -49,10 +49,10 @@ CREATE TABLE public.skills_job_dim
 );
 
 -- Set ownership of the tables to the postgres user
-ALTER TABLE public.company_dim OWNER to app_user;
-ALTER TABLE public.skills_dim OWNER to app_user;
-ALTER TABLE public.job_postings_fact OWNER to app_user;
-ALTER TABLE public.skills_job_dim OWNER to app_user;
+ALTER TABLE public.company_dim OWNER to postgres;
+ALTER TABLE public.skills_dim OWNER to postgres;
+ALTER TABLE public.job_postings_fact OWNER to postgres;
+ALTER TABLE public.skills_job_dim OWNER to postgres;
 
 -- Create indexes on foreign key columns for better performance
 CREATE INDEX idx_company_id ON public.job_postings_fact (company_id);
