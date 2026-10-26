@@ -400,5 +400,5 @@ Dataset dan struktur proyek berasal dari kursus **SQL for Data Analytics** oleh 
 Terbuka untuk diskusi, masukan, maupun peluang kolaborasi.
 
 - **GitHub**: [@alfahamiey](https://github.com/alfahamiey)
-- **LinkedIn**: *(tambahkan link LinkedIn kamu)*
-- **Email**: *(tambahkan email kamu)*
+- **LinkedIn**: *(https://www.linkedin.com/in/alfahamiey-undefined-01b2982a8/)*
+- **Email**: *(alfahamiey14@gmail.com)*
