@@ -16,7 +16,7 @@ ON top.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim
 ON skills_job_dim.skill_id = skills_dim.skill_id
 
-WHERE job_title_short = 'Data Scientist'
+WHERE job_title_short = 'Data Analyst'
 GROUP BY skills
 ORDER BY demand_count DESC
 
@@ -24,28 +24,26 @@ LIMIT 5;
 
 
 /*
-
 [
   {
-    "skills": "python",
-    "demand_count": "114016"
-  },
-  {
     "skills": "sql",
-    "demand_count": "79174"
+    "demand_count": "92628"
   },
   {
-    "skills": "r",
-    "demand_count": "59754"
+    "skills": "excel",
+    "demand_count": "67031"
   },
   {
-    "skills": "sas",
-    "demand_count": "29642"
+    "skills": "python",
+    "demand_count": "57326"
   },
   {
     "skills": "tableau",
-    "demand_count": "29513"
+    "demand_count": "46554"
+  },
+  {
+    "skills": "power bi",
+    "demand_count": "39468"
   }
 ]
-
 */
